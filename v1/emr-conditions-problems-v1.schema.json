@@ -1,7 +1,7 @@
 {
   "$id": "https://github.com/projectronin/contract-event-emr-conditions-problems/blob/main/v1/emr-conditions-problems-v1.schema.json",
   "title": "EMR Problems and Health Concern Conditions",
-  "description": "This represents Prblems and Health Concern Conditions in the EMR.",
+  "description": "This represents Problems and Health Concern Conditions in the EMR.",
   "type": "object",
   "properties": {
     "create" : {
@@ -214,7 +214,8 @@
           "description": "text content as markdown",
           "type": "string"
         }
-      }
+      },
+      "required": ["text"]
     },
     "condition": {
       "type": "object",
