@@ -177,6 +177,7 @@
           "type": "string"
         },
         "age": {
+          "description": "The age of the patient when this event occured",
           "$ref": "#/$defs/quantity"
         },
         "period": {
@@ -185,7 +186,7 @@
         "range": {
           "$ref": "#/$defs/range"
         },
-        "string": {
+        "text": {
           "type": "string"
         }
       }
@@ -201,7 +202,7 @@
             "reference": {
               "$ref": "#/$defs/resourceReference"
             },
-            "string": {
+            "text": {
               "type": "string"
             }
           }
@@ -376,7 +377,8 @@
         "code",
         "sourceCode",
         "subject",
-        "createdAt"
+        "createdAt",
+        "updatedAt"
       ]
     }
   }
