@@ -236,7 +236,7 @@
         },
         "resourceVersion": {
           "type": "string",
-          "description": "A monotonically incrementing version used for orderiung representations"
+          "description": "A monotonically incrementing version used for ordering representations"
         },
         "clinicalStatus": {
           "description": "The clinical status of the condition.",
