@@ -1,0 +1,50 @@
+{
+  "update": {
+    "id": "h387afy7-4C27-9A64-640ED234BFFE",
+    "fhirId": "4C27-9A64-640ED234BFFE",
+    "tenantId": "h387afy7",
+    "resourceVersion": "985",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ],
+        "emrText": "Problem List Item"
+      }
+    ],
+    "code": {
+      "coding":  [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "369523007",
+          "display": "Secondary malignant neoplasm of left ovary (disorder)",
+          "version": "2022-09-01"
+        }
+      ],
+      "emrText": "Metastasis to left ovary of unknown primary (HCC)"
+    },
+    "sourceCode": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "369523007"
+        }
+      ],
+      "emrText": "Metastasis to left ovary of unknown primary (HCC)"
+    },
+    "subject": {
+      "reference": "RoninPatient/h387afy7-3D40-4B5D-BB8C-7779C4BFB5A0",
+      "resource": {
+        "type": "RoninPatient",
+        "id": "h387afy7-3D40-4B5D-BB8C-7779C4BFB5A0"
+      },
+      "display": "Throatwobbler Mangrove"
+    },
+    "createdAt": "2022-09-13T12:14:15",
+    "updatedAt": "2022-09-21T21:07:35"
+  }
+}
