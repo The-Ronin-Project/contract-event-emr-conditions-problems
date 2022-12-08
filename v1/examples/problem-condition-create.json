@@ -1,6 +1,7 @@
 {
   "create": {
     "id": "h387afy7-4C27-9A64-640ED234BFFE",
+    "fhirId": "4C27-9A64-640ED234BFFE",
     "tenantId": "h387afy7",
     "resourceVersion": "985",
     "clinicalStatus": {
