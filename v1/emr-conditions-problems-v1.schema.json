@@ -146,9 +146,6 @@
         "unit": {
           "type": "string"
         },
-        "unit": {
-          "type": "string"
-        },
         "system": {
           "type": "string",
           "format": "uri-template"
