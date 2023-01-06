@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/projectronin/contract-event-emr-conditions-problems/blob/main/v1/emr-conditions-problems-v1.schema.json",
+  "$id": "https://github.com/projectronin/contract-event-emr-conditions-problems/blob/main/v1/emr-condition-problem-v1.schema.json",
   "title": "EMR Problems and Health Concern Conditions",
   "description": "This represents Problems and Health Concern Conditions in the EMR.",
   "type": "object",
@@ -290,7 +290,7 @@
           "type": "string"
         },
         "assertedDate": {
-          "description": "Date the condition was first asserted. TODO can I assert its a date-time?",
+          "description": "Date the condition was first asserted.",
           "type": "string"
         },
         "recorder": {
